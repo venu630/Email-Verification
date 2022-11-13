@@ -8,6 +8,7 @@ import {
   EmailVerificationSchema,
 } from './email-verification.schema';
 import { MailerModule } from '@nestjs-modules/mailer';
+require('dotenv').config()
 
 @Module({
   imports: [
